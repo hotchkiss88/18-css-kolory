@@ -1,0 +1,30 @@
+:root {
+    /* tło - #faebd6,
+    nagłówek - #ff0000,
+    paragraf pierwszy - #a42423,
+    paragraf drugi - #00008f1 */
+    --crl-primary-200: #faebd6;
+    --crl-primary-300: #ff0000;
+    --crl-primary-400: #a42423;
+    --crl-primary-600: #00008f;
+}
+
+body {
+    background-color: var(--crl-primary-200);
+}
+
+h1 {
+    color: var(--crl-primary-300);
+}
+
+p {
+    font-size: 32px;
+}
+
+.first {
+    color: var(--crl-primary-400);
+}
+
+.second {
+    color: var(--crl-primary-600)
+}
